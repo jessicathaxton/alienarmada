@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta author="Jessica Thaxton">
+  <title>Alien Armada</title>
+  <link rel="stylesheet" href="alienArmada.css">
+  <link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <audio id="music">
+    <source src="https://dalberghetti.com/music.mp3" type="audio/mpeg" loop>
+    <source src="https://dalberghetti.com/music.ogg" type="audio/ogg" loop>
+  </audio>
+  <audio id="shootSound">
+    <source src="https://dalberghetti.com/shoot.mp3" type="audio/mpeg" loop>
+    <source src="https://dalberghetti.com/shoot.ogg" type="audio/ogg" loop>
+  </audio>
+  <audio id="explosionSound">
+    <source src="https://dalberghetti.com/explosion.mp3" type="audio/mpeg" loop>
+    <source src="https://dalberghetti.com/explosion.ogg" type="audio/ogg" loop>
+  </audio>
+  
+  <main>
+    <div id="overlay">
+      <header>
+        <p>Alien Armada</p>
+      </header>
+      
+      <div id="content">
+        <canvas width="480" height="320"></canvas>
+        <button id="startButton">START</button>
+      </div>
+      
+      <div id="info">
+        <p id="annoying">How to Play</p>
+        <h1>Don't let the ALIENS reach EARTH!</h1>
+        <ul>
+          <li><b>MOVE:</b> &#9664; and &#9654;</li>
+          <li><b>SHOOT:</b>SPACE BAR</li>
+        </ul>
+        <p>Reach 50 points to WIN</p>
+      </div>
+    </div>
+  </main>
+  
+  <script src="objects.js"></script>
+  <script src="collision.js"></script>
+  <script src="alienArmada.js"></script>
+</body>
+</html>

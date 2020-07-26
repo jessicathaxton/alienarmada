@@ -1,0 +1,82 @@
+* {
+    margin: 0; padding: 0; border: 0; box-sizing: border-box;
+}
+
+main {
+  background-image: url("nebula.jpg");
+  background-position: left;
+  background-size: cover;
+  font-family: 'Monoton', cursive;
+  text-align: center;
+  height: 100vh;
+}
+
+#overlay {
+  background-color: rgb(0, 0, 0, 0.25);
+}
+
+#content {
+  height: 525px;
+}
+
+header {
+  font-size: 4em;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  letter-spacing: 0.15em;
+  text-shadow: 3px 2px 5px #66FFFF, -3px -2px 5px #66FFFF;
+  box-shadow: 0px 5px 50px #66FFFF;
+}
+
+canvas {
+  border: 15px inset #4A3F59;
+  display: block;
+  margin: 75px auto;
+  box-shadow: 5px 5px 20px black;
+}
+
+#info {
+  color: white;
+  background-color: black;
+  padding: 25px;
+  font-family: "Courier New";
+  box-shadow: 0px -5px 50px #4A3F59;
+}
+
+#info #annoying {
+  font-family: 'Monoton', cursive;
+  font-size: 2em;
+  letter-spacing: 0.15em;
+}
+
+#info p, #info ul {
+  list-style-type: none;
+  padding: 8px;
+  font-size: 1.5em;
+}
+
+#info ul li {
+  width: 50%; min-width: 300px;
+  margin: 0 auto;
+}
+
+#info h1 {
+  color: #66FFFF;
+  font-size: 1.5em;
+}
+
+#startButton {
+  padding: 12px 24px;
+  border-radius: 5px;
+  margin: 0 auto 36px auto;
+  background-color: #61BEBE;
+  color: white;
+  font-weight: bold;
+  text-shadow: 0 0 3px rgb(46, 46, 46);
+}
+
+#startButton:hover {
+  background-color: #2b9b9b;
+  cursor: crosshair;
+}
