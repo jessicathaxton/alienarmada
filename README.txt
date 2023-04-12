@@ -1,5 +1,5 @@
 ALIEN ARMADA
-	MyMode is a simple healthy-habit goal tracking web application. 
+	Alien Armada is a simple JavaCript-based game reminiscient of the classic "Space Invaders". 
 
 ALIEN ARMADA'S GOALS
 	Practice JavaScript events and creation of objects, and create a replayable game.
@@ -50,8 +50,7 @@ CREDITS
 
 
 CONTRIBUTE
-	MyMode currently does not have an official feedback forum. If interest is generated, the developer will pursue a forum creation. 
-	For now, please feel free to send C&C or suggestions for code improvement to the developer directly at jessicathaxtondesign.com
+	Alien Armada currently does not have an official feedback forum. If interest is generated, the developer will pursue a forum creation. 
 
 
 LICENSE
@@ -61,4 +60,4 @@ LICENSE
 
 
 CONTACT
-	For questions not addressed in the README, please contact the developer at jessicathaxtondesign.com
+	For questions not addressed in the README, please contact the developer at studioreigh.com
